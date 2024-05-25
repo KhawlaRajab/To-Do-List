@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: orchid;
+}
+.to-do{
+    width: 30%;
+    border: 3px solid black ;
+    background-color: white;
+    margin: auto;
+}
+
+.to-do .title{
+    padding: 20px 20px 0px;
+}
+
+.add-task , .add{
+    border-radius: 45px;
+    height: 45px;
+}
+
+.add-task{
+    margin:0px 15px 20px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-task input{
+    width: 100%;
+    background-color: gainsboro;
+    border-radius: 45px;
+    border:none;
+    padding: 10px;
+}
+
+
+
+.add-task .add{
+    background-color: orchid;
+    width: 100px;
+    color: white;
+    border: none;
+}
+
+.task-row{
+    display: flex;
+    padding-left: 20px;
+    position: relative;
+    background-color: white;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+
+
+.close{
+    position: absolute;
+    color: gray; 
+    right: 10px;
+    top:20px;
+}
+
+.delete{
+    display: none;
+}
+
